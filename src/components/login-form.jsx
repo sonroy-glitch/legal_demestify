@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import signup_video from "../media/signup_video.mp4";
-import web_logo from '../media/web_logo.png'
+import web_logo from '../media/web_logo.jpg'
 import { GoogleLogin } from "@react-oauth/google";
 import { jwtDecode } from "jwt-decode";
 import axios from 'axios'
