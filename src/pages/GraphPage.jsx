@@ -76,7 +76,7 @@ const GraphPage = () => {
                     },
                   ]}
                   layout={{
-                    width: 500,
+                    width: 470,
                     height: 400,
                     title: {
                       text: formattedTitle,
@@ -89,12 +89,11 @@ const GraphPage = () => {
                         color: "black",
                       },
                     },
-                    autosize: true,
                     margin: {
-                      t: 120,
-                      r: 80,
-                      b: 120,
-                      l: 60,
+                      t: 130,
+                      r: 100,
+                      b: 170,
+                      l: 75,
                     },
                     showLegend: true,
                     barcornerradius: 5,
