@@ -53,7 +53,6 @@ const GraphPage = () => {
 
   return (
     <div>
-      <TopBar />
       <p className="text-center pl-5 pr-5 pt-5 font-bold text-3xl bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text">
         GRAPHS
       </p>
