@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import signup_video from "../media/signup_video.mp4";
+import web_logo from '../media/web_logo.png'
 import { GoogleLogin } from "@react-oauth/google";
 import { jwtDecode } from "jwt-decode";
 import axios from 'axios'
@@ -139,7 +140,7 @@ export function LoginForm({ className, ...props }) {
           </form>
           <div className="bg-muted relative hidden md:block">
             <img
-              src="src/media/web_logo.jpg"
+              src={web_logo}
               alt="Website Logo"
               className="absolute inset-0 h-[530px] w-[600px] object-cover dark:brightness-[0.2] dark:grayscale"
             />
