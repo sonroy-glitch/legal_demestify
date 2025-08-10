@@ -39,7 +39,7 @@ const HeroSection = () => {
       {/* Text Content */}
       <div className="relative z-10 mt-16">
         <h1 className="text-8xl font-semibold tracking-tighter md:text-[150px] md:leading-none bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text">
-          Fintellify
+          FinDocGPT
         </h1>
         <p className="text-xl text-white/70 mt-5 md:text-xl max-w-xl mx-auto">
           Let AI guide your finance future
