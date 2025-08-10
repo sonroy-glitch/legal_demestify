@@ -68,7 +68,7 @@ const TopBar = () => {
       {/* Left Section */}
       <div className="flex items-center gap-6 text-white">
         <p className="text-2xl font-bold pr-4 hover:text-orange-400 transition cursor-pointer">
-          <a href="/">Fintellify</a>
+          <a href="/">FinDocGPT</a>
         </p>
 
         {/* Hide nav links on small screens */}
