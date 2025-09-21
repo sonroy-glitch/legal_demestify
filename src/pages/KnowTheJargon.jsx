@@ -34,124 +34,124 @@ const JargonContainer = ({ props }) => {
 const terms = [
   {
     id: 1,
-    title: "Balance Sheet",
+    title: "Plaintiff",
     description:
-      "A list of what a company owns (assets), owes (liabilities), and the leftover portion for owners (equity). It's like a photo of your bank account, debts, and net worth at one moment.",
+      "The person or group who files a case in court, claiming they were wronged.",
   },
   {
     id: 2,
-    title: "Income Statement (Profit & Loss Statement)",
+    title: "Defendant",
     description:
-      "Shows how much money the company made, spent, and kept as profit during a period. Like your monthly salary vs expenses report.",
+      "The person or group being accused or sued in a legal case.",
   },
   {
     id: 3,
-    title: "Cash Flow Statement",
+    title: "Breach of Contract",
     description:
-      "Tracks where the actual cash came from and went — from operations, investments, or financing. Even profitable businesses can run out of cash, and this shows why.",
+      "When someone fails to follow or honor the terms of an agreement.",
   },
   {
     id: 4,
-    title: " Non-Performing Assets (NPAs)",
+    title: " Arbitration",
     description:
-      "Loans where the borrower hasn't paid interest or repaid the principal for 90+ days. Like lending ₹1000 to a friend and they stop answering your calls.",
+      "A private process where a neutral person decides the outcome instead of a court.",
   },
   {
     id: 5,
-    title: " Gross NPAs",
+    title: " Indemnity",
     description:
-      "The total value of all bad loans before any adjustments. Reflects the scale of loan repayment problems.",
+      "A promise to protect or compensate someone if they suffer a loss or damage.",
   },
   {
     id: 6,
-    title: " Net NPAs",
+    title: " Jurisdiction",
     description:
-      "Bad loans minus the money already set aside to cover those losses. It shows what risk still remains.",
+      "The authority a court has to hear a case and make legal decisions.",
   },
   {
     id: 7,
-    title: "Loan Book / Advances",
+    title: "Litigation",
     description:
-      "The total amount a bank has given out as loans. It's like the company's list of people it has lent money to.",
+      "The formal process of taking legal action and resolving disputes in court.",
   },
   {
     id: 8,
-    title: "Net Interest Margin (NIM)",
+    title: "Mediation",
     description:
-      "Difference between interest a bank earns from loans and pays on deposits. Shows how profitably the bank is lending money.",
+      "A process where a neutral third person helps parties reach a mutual agreement.",
   },
 
   {
     id: 9,
-    title: "Slippage Ratio",
+    title: "Settlement",
     description:
-      "Rate at which good loans turn into NPAs.High ratio = trouble is growing under the surface.",
+      "An agreement between parties to resolve a dispute without going to trial.",
   },
   {
     id: 10,
-    title: "CASA Ratio",
+    title: "Tort",
     description:
-      "% of a bank's money that comes from current and savings accounts (cheap sources). Higher CASA = stable, low-cost funds.",
+      "A wrongful act (other than breaking a contract) that causes harm or injury.",
   },
   {
     id: 11,
-    title: "Provisioning Coverage Ratio (PCR)",
+    title: "Liability",
     description:
-      "Percentage of NPAs for which the bank has already kept backup money. A higher PCR = better protection from future losses.",
+      "The legal responsibility a person has if something goes wrong or causes harm.",
   },
   {
     id: 12,
-    title: " Dividend",
+    title: " Damages",
     description:
-      "Part of the profit given to shareholders. Like getting a bonus because you own part of the company.",
+      "Money a court orders someone to pay for harm, loss, or injury they caused.",
   },
   {
     id: 13,
-    title: "Debt-to-Equity Ratio (D/E)",
+    title: "Consideration",
     description:
-      "Compares what a company owes to what it owns. Higher ratio = more borrowing = higher risk.",
+      "Something valuable exchanged between parties that makes a contract valid.",
   },
   {
     id: 14,
-    title: "Return on Equity (ROE)",
+    title: "Clause",
     description:
-      "How much profit the company makes with each rupee of shareholder investment. Higher ROE = efficient use of investor money.",
+      "A specific section or condition written into a legal contract or document.",
   },
   {
     id: 15,
-    title: "Corporate Governance",
+    title: "Force Majeure",
     description:
-      "How fairly and transparently a company is being run. Includes board decisions, audits, and ethical conduct.",
+      "A clause excusing duties if unexpected events (like disasters) make them impossible.",
   },
   {
     id: 16,
-    title: "Capital Adequacy Ratio (CAR)",
+    title: "Intellectual Property (IP)",
     description:
-      "How much capital a bank has to absorb unexpected losses. Think of it as the strength of a building's foundation.",
+      "Legal rights over creations like inventions, art, music, or brand names.",
   },
   {
     id: 17,
-    title: "Assets",
+    title: "Non-Disclosure Agreement (NDA)",
     description:
-      "Everything the company owns — cash, buildings, machines, etc. Think of this as your valuables.",
+      "A contract that requires people to keep shared information secret.",
   },
   {
     id: 18,
-    title: "Liabilities",
+    title: "Warranty",
     description:
-      "Everything the company owes — loans, bills, unpaid dues. Think of this as your credit card dues or EMIs.",
+      "A legal promise that a product or service will meet certain standards.",
   },
   {
     id: 19,
-    title: "Promoter Pledging",
+    title: "Lease",
     description:
-      "When company founders borrow money using their shares as security. Risky if the share price falls — they could lose control of the company.",
+      "A legal contract that allows someone to use property (like a house) for rent.",
   },
   {
     id: 20,
-    title: "Equity",
+    title: "Termination",
     description:
-      "Owner's share after subtracting liabilities from assets. It's like your actual net worth.",
+      "The official ending of a legal contract, agreement, or employment.",
   },
 ];
 
