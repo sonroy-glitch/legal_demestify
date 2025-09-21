@@ -54,7 +54,7 @@ const TopBar = () => {
     Cookies.remove('token', {
       path: '/',
       domain: '.summarizer.shop'
-    });Cookies.remove('status', {
+    }); Cookies.remove('status', {
       path: '/',
       domain: '.summarizer.shop'
     });
@@ -64,11 +64,11 @@ const TopBar = () => {
     window.location.reload();
   }
   return (
-    <div className="flex flex-wrap justify-between items-center px-4 py-3 sticky top-0 z-50 border-b border-white/10 bg-black shadow-[0_4px_30px_rgba(255,255,255,0.1)]">
+    <div data-scroll-section className="flex flex-wrap justify-between items-center px-4 py-3 sticky top-0 z-50 border-b border-white/10 bg-black shadow-[0_4px_30px_rgba(255,255,255,0.1)]">
       {/* Left Section */}
       <div className="flex items-center gap-6 text-white">
         <p className="text-2xl font-bold pr-4 hover:text-orange-400 transition cursor-pointer">
-          <a href="/">FinDocGPT</a>
+          <a href="/">JuristiQ</a>
         </p>
 
         {/* Hide nav links on small screens */}
@@ -92,9 +92,9 @@ const TopBar = () => {
           <DropdownMenuTrigger>
             <div className="text-lg font-bold items-center cursor-pointer w-10 h-10 flex justify-center rounded-full bg-white text-black shadow-md hover:scale-105 transition mb-1">
               {
-               imgUrl?
-               <img src={imgUrl?.image} className='rounded-full'/>
-               :'U'}
+                imgUrl ?
+                  <img src={imgUrl?.image} className='rounded-full' />
+                  : 'U'}
             </div>
           </DropdownMenuTrigger>
           {signedIn ? (
