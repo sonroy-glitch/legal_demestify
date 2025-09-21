@@ -2,6 +2,8 @@ import homepage_video1 from "../media/homepage_video1.mp4";
 import homepage_video2 from "../media/homepage_video2.mp4";
 import { useNavigate } from "react-router-dom";
 import { Button } from "./ui/button";
+import newvideo from "../media/newvideo.mp4"
+import homepagevideo3 from "../media/homepagevideo3.mp4"
 
 const VideoSection = () => {
   const navigate = useNavigate();
@@ -14,8 +16,8 @@ const VideoSection = () => {
           </p>
         </div>
         <p className="pt-5 text-center">
-          <span className="text-5xl md:text-5xl">Think of our </span>
-          <span className="text-5xl md:text-5xl font-bold">Agentic AI</span>
+          <span className="text-5xl md:text-5xl">Your </span>
+          <span className="text-5xl md:text-5xl font-bold">AI co-pilot</span>
           <span className="text-5xl md:text-5xl bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgba(204,85,0,0.5))] text-transparent bg-clip-text">
             {" "}
             for contracts, agreements, and legal documents
@@ -31,7 +33,7 @@ const VideoSection = () => {
             loop
             className="w-full h-full object-contain"
           >
-            <source src={homepage_video1} type="video/mp4" />
+            <source src={newvideo} type="video/mp4" />
           </video>
         </div>
         <div className="w-full lg:w-1/2 aspect-video border-2 rounded-lg border-orange-500 overflow-hidden">
@@ -42,7 +44,7 @@ const VideoSection = () => {
             loop
             className="w-full h-full object-contain"
           >
-            <source src={homepage_video2} type="video/mp4" />
+            <source src={homepagevideo3} type="video/mp4" />
           </video>
         </div>
       </div>
