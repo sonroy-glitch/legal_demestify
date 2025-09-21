@@ -1,12 +1,22 @@
-# React + Vite
+# 🖥️ LegiDocGPT Frontend  
+![Framework](https://img.shields.io/badge/Framework-Next.js%2014-black)  
+![UI](https://img.shields.io/badge/UI-shadcn%2Fui%20%7C%20TailwindCSS-pink)  
+![Auth](https://img.shields.io/badge/Auth-OAuth2%20%7C%20JWT-blue)  
+![State](https://img.shields.io/badge/State-Jotai%20%7C%20React%20Query-orange)  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> The **frontend** of LegiDocGPT — a sleek React-based interface for simplifying legal documents.  
+> Handles **user login (OAuth2)**, document uploads, and interactive AI-powered insights.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
+✅ **OAuth2 authentication** (Google, GitHub, LinkedIn)  
+✅ **Secure JWT session management** with refresh tokens  
+✅ Upload & preview **PDFs, Word docs, Scanned images**  
+✅ **Chat with AI** about your legal documents  
+✅ Auto-generated **visual summaries** (rights, obligations, risks)  
+✅ Responsive UI with **Next.js + Tailwind + shadcn/ui**  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 UI Flow (Concept)  
