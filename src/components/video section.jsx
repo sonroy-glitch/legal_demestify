@@ -18,7 +18,7 @@ const VideoSection = () => {
           <span className="text-5xl md:text-5xl font-bold">Agentic AI</span>
           <span className="text-5xl md:text-5xl bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgba(204,85,0,0.5))] text-transparent bg-clip-text">
             {" "}
-            as your personal finance co-pilot
+            for contracts, agreements, and legal documents
           </span>
         </p>
       </div>
