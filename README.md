@@ -20,3 +20,8 @@
 ---
 
 ## 📸 UI Flow (Concept)  
+1️⃣ User logs in → Google OAuth
+2️⃣ Uploads rental agreement PDF
+3️⃣ Gets plain-English summary of clauses
+4️⃣ Opens interactive chat → asks "What are my obligations?"
+5️⃣ Views obligations as a timeline chart
