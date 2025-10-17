@@ -31,7 +31,7 @@ const JargonContainer = ({ props }) => {
   );
 };
 
-const financeTerms = [
+const terms = [
   {
     id: 1,
     title: "Asset",
