@@ -31,128 +31,128 @@ const JargonContainer = ({ props }) => {
   );
 };
 
-const terms = [
+const financeTerms = [
   {
     id: 1,
-    title: "Plaintiff",
+    title: "Asset",
     description:
-      "The person or group who files a case in court, claiming they were wronged.",
+      "Anything owned that has value and can generate future benefit.",
   },
   {
     id: 2,
-    title: "Defendant",
+    title: "Liability",
     description:
-      "The person or group being accused or sued in a legal case.",
+      "A financial obligation or debt owed to others.",
   },
   {
     id: 3,
-    title: "Breach of Contract",
+    title: "Equity",
     description:
-      "When someone fails to follow or honor the terms of an agreement.",
+      "Ownership value in a company after subtracting liabilities from assets.",
   },
   {
     id: 4,
-    title: " Arbitration",
+    title: "Revenue",
     description:
-      "A private process where a neutral person decides the outcome instead of a court.",
+      "Total income earned from business activities before expenses.",
   },
   {
     id: 5,
-    title: " Indemnity",
+    title: "Profit",
     description:
-      "A promise to protect or compensate someone if they suffer a loss or damage.",
+      "The amount left after subtracting all expenses from revenue.",
   },
   {
     id: 6,
-    title: " Jurisdiction",
+    title: "Cash Flow",
     description:
-      "The authority a court has to hear a case and make legal decisions.",
+      "The net movement of money into and out of a business.",
   },
   {
     id: 7,
-    title: "Litigation",
+    title: "Liquidity",
     description:
-      "The formal process of taking legal action and resolving disputes in court.",
+      "How quickly an asset can be converted into cash without loss.",
   },
   {
     id: 8,
-    title: "Mediation",
+    title: "Collateral",
     description:
-      "A process where a neutral third person helps parties reach a mutual agreement.",
+      "An asset pledged to secure a loan.",
   },
-
   {
     id: 9,
-    title: "Settlement",
+    title: "Credit Score",
     description:
-      "An agreement between parties to resolve a dispute without going to trial.",
+      "A numerical measure of an individual’s creditworthiness.",
   },
   {
     id: 10,
-    title: "Tort",
+    title: "Interest Rate",
     description:
-      "A wrongful act (other than breaking a contract) that causes harm or injury.",
+      "The percentage charged for borrowing or earned on savings.",
   },
   {
     id: 11,
-    title: "Liability",
+    title: "Amortization",
     description:
-      "The legal responsibility a person has if something goes wrong or causes harm.",
+      "Gradual repayment of a loan over time through regular payments.",
   },
   {
     id: 12,
-    title: " Damages",
+    title: "Capital Expenditure (CapEx)",
     description:
-      "Money a court orders someone to pay for harm, loss, or injury they caused.",
+      "Money spent on acquiring or upgrading physical assets.",
   },
   {
     id: 13,
-    title: "Consideration",
+    title: "Operating Expense (OpEx)",
     description:
-      "Something valuable exchanged between parties that makes a contract valid.",
+      "Day-to-day costs of running a business.",
   },
   {
     id: 14,
-    title: "Clause",
+    title: "Return on Investment (ROI)",
     description:
-      "A specific section or condition written into a legal contract or document.",
+      "A measure of profit earned relative to the money invested.",
   },
   {
     id: 15,
-    title: "Force Majeure",
+    title: "Net Worth",
     description:
-      "A clause excusing duties if unexpected events (like disasters) make them impossible.",
+      "Total assets minus total liabilities.",
   },
   {
     id: 16,
-    title: "Intellectual Property (IP)",
+    title: "Diversification",
     description:
-      "Legal rights over creations like inventions, art, music, or brand names.",
+      "Spreading investments to reduce risk.",
   },
   {
     id: 17,
-    title: "Non-Disclosure Agreement (NDA)",
+    title: "Inflation",
     description:
-      "A contract that requires people to keep shared information secret.",
+      "The general increase in prices over time, reducing purchasing power.",
   },
   {
     id: 18,
-    title: "Warranty",
+    title: "Depreciation",
     description:
-      "A legal promise that a product or service will meet certain standards.",
+      "Reduction in value of an asset over time due to use or wear.",
   },
   {
     id: 19,
-    title: "Lease",
+    title: "Default",
     description:
-      "A legal contract that allows someone to use property (like a house) for rent.",
+      "Failure to meet the legal obligations of a loan.",
   },
   {
     id: 20,
-    title: "Termination",
+    title: "Leverage",
     description:
-      "The official ending of a legal contract, agreement, or employment.",
+      "Using borrowed funds to increase potential returns (and risks).",
   },
 ];
+
 
 export default KnowTheJargon;
