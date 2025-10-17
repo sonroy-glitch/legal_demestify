@@ -20,7 +20,7 @@ const VideoSection = () => {
           <span className="text-5xl md:text-5xl font-bold">AI co-pilot</span>
           <span className="text-5xl md:text-5xl bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgba(204,85,0,0.5))] text-transparent bg-clip-text">
             {" "}
-            for contracts, agreements, and legal documents
+            for contracts, agreements, and financial documents
           </span>
         </p>
       </div>
@@ -33,7 +33,7 @@ const VideoSection = () => {
             loop
             className="w-full h-full object-contain"
           >
-            <source src={newvideo} type="video/mp4" />
+            <source src={homepage_video1} type="video/mp4" />
           </video>
         </div>
         <div className="w-full lg:w-1/2 aspect-video border-2 rounded-lg border-orange-500 overflow-hidden">
@@ -44,7 +44,7 @@ const VideoSection = () => {
             loop
             className="w-full h-full object-contain"
           >
-            <source src={homepagevideo3} type="video/mp4" />
+            <source src={homepage_video2} type="video/mp4" />
           </video>
         </div>
       </div>
